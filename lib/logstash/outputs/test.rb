@@ -3,8 +3,8 @@ require "logstash/outputs/base"
 require "logstash/namespace"
 
 # An example output that does nothing.
-class LogStash::Outputs::Example < LogStash::Outputs::Base
-  config_name "example"
+class LogStash::Outputs::Test < LogStash::Outputs::Base
+  config_name "test"
 
   public
   def register
@@ -12,6 +12,10 @@ class LogStash::Outputs::Example < LogStash::Outputs::Base
 
   public
   def receive(event)
-    return "Event received"
+    return "Event received by test"
   end # def event
-end # class LogStash::Outputs::Example
+end # class LogStash::Outputs::Test
+
+
+
+

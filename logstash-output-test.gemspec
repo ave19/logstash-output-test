@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name = 'logstash-output-example'
-  s.version         = "0.1.3"
+  s.name = 'logstash-output-test'
+  s.version   = "0.0.1"
   s.licenses = ["Apache License (2.0)"]
-  s.summary = "This example output does nothing."
+  s.summary = "This test output does nothing."
   s.description = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
-  s.authors = ["Elastic"]
-  s.email = "info@elastic.co"
+  s.authors = ["ave19"]
+  s.email = "dave.jaccard@gmail.com"
   s.homepage = "http://www.elastic.co/guide/en/logstash/current/index.html"
   s.require_paths = ["lib"]
 
